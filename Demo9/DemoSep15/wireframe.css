@@ -52,7 +52,7 @@ header::before {
     content: "HEADER";
     position: absolute;
     top: -12px;
-    left: 6px;
+    left: 10px;
     background: white;
     padding: 0 8px;
     font-size: 10px;
