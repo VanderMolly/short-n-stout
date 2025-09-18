@@ -335,7 +335,7 @@ img {
     border: 2px dashed #999;
     background: #f0f0f0;
     padding: 20px;
-    display: inline-block;
+    display: block;
     margin: 20px 0;
     max-width: 100%;
     height: auto;
@@ -345,6 +345,13 @@ img {
             #e8e8e8 10px,
             transparent 10px,
             transparent 20px);
+}
+
+.home-img {
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 
 img::before {
