@@ -48,10 +48,7 @@ header {
     position: relative;
 }
 
-img {
-    display: inline-block;
-    
-}
+
 
 header::before {
     content: "HEADER";
@@ -338,7 +335,7 @@ img {
     border: 2px dashed #999;
     background: #f0f0f0;
     padding: 20px;
-    display: block;
+    display: inline-block;
     margin: 20px 0;
     max-width: 100%;
     height: auto;
