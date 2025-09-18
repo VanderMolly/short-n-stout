@@ -48,6 +48,10 @@ header {
     position: relative;
 }
 
+#tea-party-pic {
+    display: inline-block;
+}
+
 header::before {
     content: "HEADER";
     position: absolute;
