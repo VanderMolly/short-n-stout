@@ -48,8 +48,9 @@ header {
     position: relative;
 }
 
-#tea-party-pic {
+img {
     display: inline-block;
+    
 }
 
 header::before {
