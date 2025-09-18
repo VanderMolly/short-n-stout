@@ -347,12 +347,7 @@ img {
             transparent 20px);
 }
 
-.home-img {
-    display:inline-block;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-}
+
 
 img::before {
     position: absolute;
