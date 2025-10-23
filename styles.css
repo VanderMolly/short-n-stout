@@ -7,7 +7,38 @@ padding: 0;
 margin: 0;
 }
 
+/*color-vars*/
+:root {
+    --pink:#FFDCDC;
+    --light-pink:#FFF2EB;
+    --peach:#FFD6BA;
+    --leaf-green:#7DCA72;
+    --Thorn-Green: #167039;
+}
 
 body {
+    background-color:var(--pink);
     font-family: 'Zen Kaku Gothic New', sans-serif;
+    width: 60vw;
+    margin: 20px 20px;
+}
+
+
+/*typography*/
+
+h1, h2, h3 {
+    font-family: 'Helvetica', sans-serif;
+  
+    
+}
+
+p {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 22px; /* 150% */
+    
+}
+
+img{
+    margin: 10px;
 }
