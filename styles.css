@@ -22,13 +22,16 @@ body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     width: 60vw;
     margin: 20px 20px;
+
 }
 
 
 /*typography*/
 h1, h2, h3 {
     font-family: 'Helvetica', sans-serif;
-    color:#FF89AA;    
+    color:#FF89AA;  
+    margin-bottom:5px;
+    margin-top:20px;  
 }
 
 p {
@@ -38,6 +41,13 @@ p {
 }
 
 img{
-    margin: 10px;
+    margin-bottom:20px;
+    margin-top:20px;
     max-width: 80vw;
+    height: auto;
+}
+
+footer{
+    margin: 10px;
+    padding:10px;
 }
