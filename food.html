@@ -11,49 +11,40 @@
 
 </head>
 <body>
-    <header>
-        <nav aria-label="Main navigation">
-                    <!-- Top row container for logo and hamburger -->
+   <header class="site-header">
+        <div class="logo"><a href="index.html">Short & Stout</a></div>
+        <div>
+            <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Open navigation menu">
+                <span class="icon" aria-hidden="true">☰</span>
+            </button>
+            <nav class="nav" id="main-nav">
+                <ul id="main-nav" aria-expanded="false">
+                   <li>
+                       <a href="thebasics.html">
+                          The Basics
+                       </a>
+                   </li>
+                   <li>
+                       <a href="tea.html">
+                          Tea
+                       </a>
+                   </li>
+                    <li>
+                       <a href="food.html">
+                          Food
+                       </a>
+                   </li>
+                   <li>
+                       <a href="decor.html">
+                          Décor
+                       </a>
+                   </li>
 
-                    <!-- Logo on the left -->
-                    <a href="index.html" class="nav-logo" aria-label="Home">
-                        <div class="nav-logo-circle">LOGO</div>
-                    </a>
+               </ul>
+            </nav>
+        </div>
 
-                    <div class="flex-right">
-                    <!-- Hamburger menu button - only visible on mobile -->
-                        <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
-                            <span class="sr-only">Toggle navigation menu</span>
-                        </button>
-
-
-                    <!-- your HTML pages go in this list-->
-                        <ul id="main-nav" aria-expanded="false">
-                            <li>
-                                <a href="thebasics.html">
-                                The Basics
-                                </a>
-                            </li>
-                            <li>
-                                <a href="tea.html">
-                                Tea
-                                </a>
-                            </li>
-                            <li>
-                                <a href="food.html">
-                                Food
-                                </a>
-                            </li>
-                            <li>
-                                <a href="decor.html">
-                                Décor
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </nav>
-        </header>
+    </header>
 
     <main>
         <h1><strong>Food</strong></h1>
