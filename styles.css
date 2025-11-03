@@ -1,5 +1,6 @@
 /* load fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 
 * {
 box-sizing:border-box;
@@ -29,7 +30,7 @@ body {
 
 /*typography*/
 h1, h2, h3 {
-    font-family: 'Helvetica', sans-serif;
+    font-family:'Borel';
     color:#FF89AA;  
     margin-bottom:5px;
     margin-top:20px;  
