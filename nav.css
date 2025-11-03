@@ -9,6 +9,17 @@
     border-bottom: 1px solid #ccc;
 }
 
+/*color-vars*/
+:root {
+    --pink:#FFDCDC;
+    --light-pink:#FFF2EB;
+    --peach:#FFD6BA;
+    --leaf-green:#7DCA72;
+    --Thorn-Green: #167039;
+    --Rose-Bud-Pink:#FF89AA;
+    --Dark-Rose: #AD0C70;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -25,7 +36,7 @@
 .nav a {
     font-family:'Borel';
     text-decoration: none;
-    color: #333;
+    color: var(--Dark-Rose, #AD0C70);
 }
 
 .nav-toggle {

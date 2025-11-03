@@ -16,6 +16,7 @@ margin: 0;
     --leaf-green:#7DCA72;
     --Thorn-Green: #167039;
     --Rose-Bud-Pink:#FF89AA;
+    --Dark-Rose: #AD0C70;
 }
 
 body {
@@ -31,7 +32,7 @@ body {
 /*typography*/
 h1, h2, h3 {
     font-family:'Borel';
-    color:#FF89AA;  
+    color: var(--Dark-Rose, #AD0C70);
     margin-bottom:5px;
     margin-top:20px;  
 }
@@ -42,11 +43,13 @@ p {
     line-height: 22px; /* 150% */ 
 }
 
+/*if you wanted the border on main content
 main{
     border-radius: 20px;
     background: var(--light-pink);
     padding: 20px;
 }
+    */
 
 img{
     margin-bottom:20px;
