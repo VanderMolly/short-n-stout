@@ -55,6 +55,7 @@ img{
     margin-top:20px;
     max-width: 80vw;
     height: auto;
+    border-radius: 20%; 
 }
 
 /*Home page*/
