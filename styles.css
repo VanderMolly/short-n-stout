@@ -23,11 +23,8 @@ body {
     background-color:var(--pink);
     font-family: 'Zen Kaku Gothic New', sans-serif;
     width: 60vw;
-    margin: 20px 20px;
-    
-
+    margin: 5vw;
 }
-
 
 /*typography*/
 h1, h2, h3 {
@@ -35,12 +32,14 @@ h1, h2, h3 {
     color: var(--Dark-Rose, #AD0C70);
     margin-bottom:5px;
     margin-top:20px;  
+    padding: 1vw;
 }
 
 p {
     font-size: 16px;
     font-style: normal;
     line-height: 22px; /* 150% */ 
+    padding: 1vw;
 }
 
 /*if you wanted the border on main content
@@ -58,7 +57,48 @@ img{
     height: auto;
 }
 
+/*Home page*/
+.home-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+} 
+
+.home-img img {
+    width: 30%;
+    height: auto;
+    border-radius: 20%; 
+}
+
+
 footer{
     margin: 10px;
     padding:10px;
+}
+
+/* navbar media query */
+@media only screen and (min-width: 700px) {
+
+    main {
+        align-items: left;
+        margin-right: 5vw;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+     p {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    img {
+        width: 50vw;
+        height: auto; 
+    }
 }
