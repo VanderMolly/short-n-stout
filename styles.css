@@ -22,7 +22,6 @@ margin: 0;
 body {
     background-color: #FFBACE;
     font-family: 'Zen Kaku Gothic New', sans-serif;
-    width: 60vw;
     margin: 4vw;
   
 }
@@ -34,7 +33,7 @@ h1, h2, h3 {
     color: var(--Dark-Rose, #AD0C70);
     margin-bottom:5px;
     margin-top:20px;  
-    padding: 1vw;
+   
 }
 
 p {
@@ -83,7 +82,7 @@ footer{
     padding:10px;
 }
 
-/* navbar media query */
+/* desktop media query */
 @media only screen and (min-width: 700px) {
 
     main {
@@ -105,7 +104,7 @@ footer{
     }
 
     img {
-        width: 50vw;
+        width: 90vw;
         height: auto; 
     }
 }
