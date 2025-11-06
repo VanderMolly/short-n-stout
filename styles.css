@@ -26,6 +26,7 @@ body {
     margin: 5vw;
 }
 
+
 /*typography*/
 h1, h2, h3 {
     font-family:'Borel';
@@ -82,7 +83,7 @@ footer{
 
     main {
         align-items: left;
-        margin-right: 5vw;
+        margin: 5vw;
     }
 
     h1 {
