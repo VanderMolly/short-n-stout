@@ -31,6 +31,7 @@
     height: auto;
 }
 
+
 .nav ul {
     display: flex;
     gap: 1rem;
@@ -44,6 +45,11 @@
     text-decoration: none;
     color: var(--Dark-Rose, #AD0C70);
 }
+
+.nav a:hover {
+    color: var(--Rose-Bud-Pink, #FF89AA);
+}
+
 
 .nav-toggle {
     display: none;
@@ -61,6 +67,7 @@
 .nav-toggle:focus {
     outline: 2px solid #000;
 }
+
 
 /* Responsive */
 @media (max-width: 768px) {
