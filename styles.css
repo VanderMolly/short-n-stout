@@ -25,6 +25,11 @@ body {
    
 }
 
+body a:hover {
+    color: var(--Rose-Bud-Pink, #FF89AA);
+}
+
+
 main {
      margin: 4vw;
 }
