@@ -25,15 +25,20 @@ body {
    
 }
 
+/*link styling*/ 
 main a {
     font-family:'Borel';
     text-decoration: none;
     color: var(--light-pink, #FFF2EB);
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 5px;
-    border-color: var(--Rose-Bud-Pink , #FF89AA);
+    border: solid 5px var(--Rose-Bud-Pink , #FF89AA);
+    border-radius: 25px;
     background-color: var(--Rose-Bud-Pink , #FF89AA);
+    padding: 3px; 
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+  
 }
 
 body a:hover {
