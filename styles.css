@@ -1,6 +1,8 @@
 /* load fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 
 * {
 box-sizing:border-box;
@@ -27,7 +29,7 @@ body {
 
 /*link styling*/ 
 main a {
-    font-family:'Borel';
+    font-family:'DM Serif Display', serif;
     text-decoration: none;
     color: var(--light-pink, #FFF2EB);
     border: solid 5px var(--Rose-Bud-Pink , #FF89AA);
@@ -53,7 +55,7 @@ main {
 
 /*typography*/
 h1, h2, h3 , h6 {
-    font-family:'Borel';
+    font-family:'DM Serif Display', serif;
     color: var(--Dark-Rose, #AD0C70);
     margin-bottom:5px;
     margin-top:20px;  
