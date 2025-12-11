@@ -106,7 +106,13 @@ img{
     border-radius: 20%; 
 }
 
-
+/* Tea Page Styles*/
+.teas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
+}
 footer{
     display: flex;
     justify-content: space-between;
