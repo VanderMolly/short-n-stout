@@ -114,6 +114,11 @@ footer{
     padding: 1rem;
     background: #fff1f1;
 }
+
+footer img {
+    width: 20vw;
+    height: auto;
+}
 /* desktop media query */
 @media only screen and (min-width: 700px) {
 
