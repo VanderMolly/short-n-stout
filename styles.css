@@ -28,7 +28,7 @@ body {
 
 /*link styling*/ 
 main a {
-    font-family:'DM Serif Display', serif;
+    font-family:'Zen Kaku Gothic New', sans-serif;
     text-decoration: none;
     color: var(--light-pink, #FFF2EB);
     border: solid 5px var(--Rose-Bud-Pink , #FF89AA);
@@ -87,7 +87,7 @@ img{
 }
 
 /*Heading Banner Styles*/
-.banner1
+h1
 {
     background-color:#FFDCDC;
     color: #AD0C70;
@@ -151,6 +151,7 @@ footer img {
 
     main {
         align-items: left;
+       
     
     }
 
