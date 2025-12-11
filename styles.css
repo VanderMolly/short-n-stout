@@ -118,7 +118,10 @@ h1
   mask: 
     linear-gradient(0,#0000 60px,#000 0) 0 30px,
     radial-gradient(30px,#000 calc(100% - 1px),#0000) 50%/55.5px 60px repeat space
+}
 
+.pink h2, h3 {
+    color:#FFF2EB;
 }
 
 /* Home Page Styles*/
@@ -165,8 +168,6 @@ footer img {
 
     main {
         align-items: left;
-       
-    
     }
 
     h1 {
@@ -188,7 +189,7 @@ footer img {
         height: auto; 
     }
 
-    /* Home page desktop */
+/* Home page desktop */
     
 /*Home page*/
 .home-img {
