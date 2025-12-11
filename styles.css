@@ -24,7 +24,7 @@ margin: 0;
 body {
     background-color: #FFBACE;
     font-family: 'Zen Kaku Gothic New', sans-serif;
-   
+
 }
 
 /*link styling*/ 
@@ -77,6 +77,7 @@ main{
 }
     */
 
+
 img{
     margin-bottom:20px;
     margin-top:20px;
@@ -123,6 +124,11 @@ footer{
     align-items: center;
     padding: 1rem;
     background: #fff1f1;
+
+  mask: 
+    linear-gradient(180deg,#0000 30px,#000 0),
+    radial-gradient(30px,#000 calc(100% - 1px),#0000) top/55.5px 60px
+
 }
 
 footer img {
