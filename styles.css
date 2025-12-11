@@ -89,20 +89,24 @@ img{
 /*Heading Banner Styles*/
 .banner1
 {
-    background-color: var(--pink, #FFDCDC);
+    background-color:#FFDCDC;
     color: #AD0C70;
     padding: 20px;
-    border-radius: 15px;
+    padding-left: 15vw;
+    border-radius: 10vw;
+    margin-left: -15vw;
 }
 
 .banner2
-
 {
     background-color:var(--Rose-Bud-Pink, #FF89AA);
     color: #FFF2EB;
     padding: 20px;
-    border-radius: 15px;
+    padding-left: 20vw;
+    border-radius: 10vw;
+    margin-left: -15vw;
 }
+
 /* Home Page Styles*/
 
 .home-img {
