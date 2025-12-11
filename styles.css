@@ -109,15 +109,6 @@ img{
 
 /* Home Page Styles*/
 
-.home-img {
-    justify-content: center;
-}
-
-.home-img img {
-    width: 80vw;
-    height: auto;
-    border-radius: 15%; 
-}
 .long-img {
       border-radius: 10%; 
 }
