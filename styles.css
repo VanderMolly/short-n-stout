@@ -110,8 +110,12 @@ img{
 .teas {
     display: flex;
     flex-wrap: wrap;
-    gap: 2vw;
+    gap: 10px;
     justify-content: center;
+}
+.teas img {
+    width: 30%;
+    height: auto;
 }
 footer{
     display: flex;
