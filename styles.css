@@ -76,35 +76,35 @@ main{
 }
     */
 
-
+/* for mobile, media queries for desktop*/
 img{
+    align-self: center;
     margin-bottom:20px;
     margin-top:20px;
-    max-width: 60vw;
+    width: 90vw;
     height: auto;
     border-radius: 15%; 
 }
 
+/* Home Page Styles*/
+
+.home-img {
+    justify-content: center;
+}
+
+.home-img img {
+    width: 80vw;
+    height: auto;
+    border-radius: 15%; 
+}
 .long-img {
       border-radius: 10%; 
 }
 
 .table {
-    border-radius: 0%;
+    border-radius: 15%;
 }
 
-/*Home page*/
-.home-img {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2vw;
-} 
-
-.home-img img {
-    width: 30%;
-    height: auto;
-    border-radius: 20%; 
-}
 
 /* Tea Page Styles*/
 .teas {
@@ -156,8 +156,24 @@ footer img {
     }
 
     img {
-        width: 90vw;
+       
+        width: 50vw;
         height: auto; 
     }
+
+    /* Home page desktop */
+    
+/*Home page*/
+.home-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+} 
+
+.home-img img {
+    width: 30%;
+    height: auto;
+    border-radius: 15%; 
+}
 
 }
