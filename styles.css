@@ -86,6 +86,22 @@ img{
     border-radius: 15%; 
 }
 
+/*Heading Banner Styles*/
+.banner1
+{
+    background-color: var(--pink, #FFDCDC);
+    color: #AD0C70;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.banner2
+{
+    background-color:var(--Rose-Bud-Pink, #FF89AA);
+    color: #FFF2EB;
+    padding: 20px;
+    border-radius: 15px;
+}
 /* Home Page Styles*/
 
 .home-img {
