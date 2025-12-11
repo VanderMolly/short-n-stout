@@ -107,6 +107,20 @@ h1
     margin-left: -15vw;
 }
 
+/*Pink Background Styles*/
+.pink {
+    background-color:#FF89AA;
+    background-size: cover;
+    color:#FFF2EB;
+    margin: 10vw -20vw 10vw -20vw;
+    padding: 5vw 20vw 5vw 20vw;
+
+  mask: 
+    linear-gradient(0,#0000 60px,#000 0) 0 30px,
+    radial-gradient(30px,#000 calc(100% - 1px),#0000) 50%/55.5px 60px repeat space
+
+}
+
 /* Home Page Styles*/
 
 .long-img {
