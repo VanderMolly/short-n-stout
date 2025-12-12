@@ -96,6 +96,7 @@ h1
     border-radius: 10vw;
     margin-left: -15vw;
     margin-top: 6vw;
+    width: 80%;
 }
 
 .banner2
@@ -174,8 +175,49 @@ h1
 }
 
 /*food*/
+.foodhead {
+    background-image: url(img-food/foodhead.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 138px;
+    height: 25vw;
+    width: 100%;
+    z-index: -1;
+    margin-right: -30vw;
+    margin-left: -4vw;
+    padding-right: 20vw;
+
+  mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%
+
+}
+
+.foodmain {
+ margin-top: 25vw;
+}
 
 /*decor*/
+.decorhead {
+    background-image: url(img-decor/head.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 138px;
+    height: 25vw;
+    width: 100%;
+    z-index: -1;
+    margin-right: -30vw;
+    margin-left: -4vw;
+    padding-right: 20vw;
+
+  mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%
+
+}
+
+
+.decormain {
+ margin-top: 25vw;
+}
 
 /* Home Page Styles*/
 
