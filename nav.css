@@ -8,7 +8,8 @@
     background: #fff1f1;
   mask: 
     linear-gradient(0,#0000 30px,#000 0),
-    radial-gradient(30px,#000 calc(100% - 1px),#0000) bottom/55.5px 60px
+    radial-gradient(30px,#000 calc(100% - 1px),#0000) bottom/55.5px 60px;
+
 }
 
 

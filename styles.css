@@ -123,6 +123,18 @@ h1
 .pink h2, h3 {
     color:#FFF2EB;
 }
+/*Header Image Styles*/
+.basicshead {
+    background-image: url(img-thebas/WhatTea/tf1.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 150px;
+    height: auto;
+    width: 90%;
+    
+}
+
 
 /* Home Page Styles*/
 
