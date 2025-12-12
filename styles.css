@@ -126,7 +126,7 @@ h1
 }
 /*Header Image Styles*/
 
-
+/*basics*/
 .basicshead {
     background-image: url(img-thebas/WhatTea/tf1.jpeg);
     background-size: cover;
@@ -149,6 +149,33 @@ h1
  margin-top: 25vw;
 }
 
+
+/*tea*/
+.teahead {
+    background-image: url(img-tea/thead.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 138px;
+    height: 25vw;
+    width: 100%;
+    z-index: -1;
+    margin-right: -30vw;
+    margin-left: -4vw;
+    padding-right: 20vw;
+
+  mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%
+
+}
+
+
+.teamain {
+ margin-top: 25vw;
+}
+
+/*food*/
+
+/*decor*/
 
 /* Home Page Styles*/
 
