@@ -131,8 +131,13 @@ h1
     position: absolute;
     top: 150px;
     height: auto;
-    width: 90%;
+    width: 100%;
+    z-index: -1;
     
+}
+
+.basmain {
+    top-margin: 10vw;
 }
 
 
