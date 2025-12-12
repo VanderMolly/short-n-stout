@@ -141,9 +141,10 @@ h1
     margin-left: -4vw;
     padding-right: 20vw;
 
-  mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%
+   mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%
 
 }
+
 
 
 .basmain {
