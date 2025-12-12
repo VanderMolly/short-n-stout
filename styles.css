@@ -92,9 +92,10 @@ h1
     background-color:#FFDCDC;
     color: #AD0C70;
     padding: 20px;
-    padding-left: 15vw;
+    padding-left: 20vw;
     border-radius: 10vw;
     margin-left: -15vw;
+    margin-top: 6vw;
 }
 
 .banner2
@@ -124,20 +125,25 @@ h1
     color:#FFF2EB;
 }
 /*Header Image Styles*/
+
+
 .basicshead {
     background-image: url(img-thebas/WhatTea/tf1.jpeg);
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: 150px;
-    height: auto;
+    top: 138px;
+    height: 25vw;
     width: 100%;
     z-index: -1;
-    
+    margin-right: -30vw;
+    margin-left: -4vw;
+    padding-right: 20vw;
 }
 
+
 .basmain {
-    top-margin: 10vw;
+ margin-top: 25vw;
 }
 
 
