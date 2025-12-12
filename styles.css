@@ -91,7 +91,7 @@ h1
 {
     background-color:#FFDCDC;
     color: #AD0C70;
-    padding: 20px;
+    padding: 1vw;
     padding-left: 20vw;
     border-radius: 10vw;
     margin-left: -15vw;
@@ -139,6 +139,9 @@ h1
     margin-right: -30vw;
     margin-left: -4vw;
     padding-right: 20vw;
+
+  mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%
+
 }
 
 
@@ -225,6 +228,11 @@ footer img {
     width: 30%;
     height: auto;
     border-radius: 15%; 
+}
+
+
+.basmain {
+ margin-top: 25vw;
 }
 
 }
