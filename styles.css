@@ -46,11 +46,9 @@ body a:hover {
     color: var(--Dark-Rose, #AD0C70);
 }
 
-
 main {
      margin: 4vw;
 }
-
 
 /*typography*/
 h1, h2, h3 , h6 {
@@ -231,13 +229,13 @@ h1
 .tea-img {
     display: flex;
     flex-wrap: wrap;
-    gap: 1vw;
+    gap: 10px;
 } 
 
 .tea-img img {
     width: 30%;
     height: auto;
-    border-radius: 15%; 
+  
 }
 
 
@@ -258,11 +256,11 @@ footer{
     align-items: center;
     padding: 1rem;
     background: #fff1f1;
+    color:#AD0C70;
 
   mask: 
     linear-gradient(180deg,#0000 30px,#000 0),
     radial-gradient(30px,#000 calc(100% - 1px),#0000) top/55.5px 60px
-
 }
 
 footer img {
