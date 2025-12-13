@@ -225,9 +225,12 @@ h1
 }
 
 .recipe  {
-    font-size: 5vw;
-    margin-left: 100px;
+    font-size: 4vw;
     font-weight: bold;
+    border: solid 5px var( --light-pink,#FFF2EB);
+    border-radius: 25px;
+    background-color:var( --light-pink,#FFF2EB);
+    color:#AD0C70;
     
 }
 
@@ -262,9 +265,6 @@ h1
   margin-top: -5vw;
 }
 
-.long-img {
-      border-radius: 80px; 
-}
 
 /* Tea Page Styles*/
 .table {
