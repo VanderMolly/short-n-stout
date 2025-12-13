@@ -329,8 +329,9 @@ footer img {
     height: auto;
     border-radius: 15%; 
 }
+/*flexbox*/
 
-.basmain {
+.wrapper {
     padding: 0 15px;
     display: flex;
     flex-wrap: wrap;
