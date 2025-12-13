@@ -32,21 +32,6 @@ body {
 .basmain {
  margin-top: 25vw;
 
- display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: 10px;
-    align-items: center;
-
-}
-
-.basmain img {
-    grid-column: 2 / 3;
-    width: 100%;
-}
-
-.basmain h2, .basmain p, .basmain ol {
-    grid-column: 1 / 2;
-    padding: 0;
 }
 main {
      margin: 4vw;
@@ -343,12 +328,11 @@ footer img {
     border-radius: 15%; 
 }
 
-
 .basmain {
  margin-top: 25vw;
  
  display:grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 3 fr 2 fr;
     gap:30px;
     align-items: center;
 
@@ -356,16 +340,15 @@ footer img {
 }
 
 .basmain img {
-    grid-column: 1.5 / 2.5;
+    grid-column: 2 / 3;
     width: 100%;
    
 }
 
 .basmain h2, .basmain p, .basmain ol {
-    grid-column: 1 / 1.5;
+    grid-column: 1 / 2;
     padding: 0;
 }
-
 
 
 
