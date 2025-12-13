@@ -124,7 +124,7 @@ h1
     radial-gradient(30px,#000 calc(100% - 1px),#0000) 50%/55.5px 60px repeat space
 }
 
-.pink h2, h3 {
+.pink h2, h3{
     color:#FFF2EB;
     text-align: center;
     margin: 3vw;
@@ -134,6 +134,13 @@ h1
     color:#FFF2EB;
     margin-left: 2vw;
 }
+
+.pink p {
+    color:#FFF2EB;
+
+}
+
+
 /*Header Image Styles*/
 
 /*basics*/
