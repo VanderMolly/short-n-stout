@@ -9,6 +9,7 @@ padding: 0;
 margin: 0;
 }
 
+
 /*color-vars*/
 :root {
     --pink:#FFDCDC;
@@ -26,29 +27,39 @@ body {
 }
 
 /*link styling*/ 
-main a {
-    font-family:'Zen Kaku Gothic New', sans-serif;
-    text-decoration: none;
-    color: var(--light-pink, #FFF2EB);
-    border: solid 5px var(--Rose-Bud-Pink , #FF89AA);
-    border-radius: 25px;
-    background-color: var(--Rose-Bud-Pink , #FF89AA);
-    padding: 8px; 
-    padding-top: 5px;
-    display: inline-block;
-    text-align: center;
-    line-height: 1;
-    margin-left: 5vw;
-  
+
+
+.basmain {
+ margin-top: 25vw;
+
+ display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 10px;
+    align-items: center;
+
 }
 
-body a:hover {
-    color: var(--Dark-Rose, #AD0C70);
+.basmain img {
+    grid-column: 2 / 3;
+    width: 100%;
 }
 
+.basmain h2, .basmain p, .basmain ol {
+    grid-column: 1 / 2;
+    padding: 0;
+}
 main {
      margin: 4vw;
 }
+
+main ol, ul, li {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 22px; /* 150% */ 
+    padding-left: 5vw;
+    color:#4c082c;
+}
+
 
 /*typography*/
 h1, h2, h3 , h6 {
@@ -65,14 +76,6 @@ p {
     font-style: normal;
     line-height: 22px; /* 150% */ 
     padding: 5vw;
-    color:#4c082c;
-}
-
-ol, ul, li {
-    font-size: 16px;
-    font-style: normal;
-    line-height: 22px; /* 150% */ 
-    padding-left: 5vw;
     color:#4c082c;
 }
 
@@ -163,7 +166,6 @@ h1
 .basmain {
  margin-top: 25vw;
 }
-
 
 /*Tea Page Styles*/
 .teahead {
@@ -345,6 +347,26 @@ footer img {
 .basmain {
  margin-top: 25vw;
  
+ display:grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap:30px;
+    align-items: center;
+
+
 }
+
+.basmain img {
+    grid-column: 1.5 / 2.5;
+    width: 100%;
+   
+}
+
+.basmain h2, .basmain p, .basmain ol {
+    grid-column: 1 / 1.5;
+    padding: 0;
+}
+
+
+
 
 }
