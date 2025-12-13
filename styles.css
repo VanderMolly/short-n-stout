@@ -117,6 +117,8 @@ h1
 
 .pink h2, h3 {
     color:#FFF2EB;
+    text-align: center;
+    margin: 3vw;
 }
 /*Header Image Styles*/
 
@@ -213,10 +215,18 @@ h1
 
 /* Home Page Styles*/
 
+.me {
+  width: 150%;
+  margin-left: -25vw;
+  margin-bottom: -15vw;
+  margin-top: -5vw;
+}
+
 .long-img {
       border-radius: 10%; 
 }
 
+/* Tea Page Styles*/
 .table {
     border-radius: 15%;
 }
@@ -233,8 +243,6 @@ h1
   
 }
 
-
-/* Tea Page Styles*/
 .teas {
     display: flex;
     flex-wrap: wrap;
@@ -245,6 +253,9 @@ h1
     width: 30%;
     height: auto;
 }
+
+/*Footer Styles*/
+
 footer {
     display: flex;
     flex-wrap: wrap;
