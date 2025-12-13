@@ -329,9 +329,7 @@ footer img {
 }
 
 .basmain {
- margin-top: 25vw;
- 
- display:grid;
+  display:grid;
     grid-template-columns: 3 fr 2 fr;
     gap:30px;
     align-items: center;
