@@ -49,10 +49,9 @@ main ol, ul, li {
 /*typography*/
 h1, h2, h3 , h6 {
     font-family:'DM Serif Display', serif;
-    color: var(--Dark-Rose, #AD0C70);
-    margin-bottom:5px;
-    margin-top:20px;  
+    color: var(--Dark-Rose, #AD0C70); 
     padding-left: 5vw;
+    margin-bottom: 2vw;
    
 }
 
@@ -60,7 +59,7 @@ p {
     font-size: 16px;
     font-style: normal;
     line-height: 22px; /* 150% */ 
-    padding: 5vw;
+    padding-left: 5vw;
     color:#4c082c;
 }
 
@@ -105,6 +104,9 @@ h1
     color:#FFF2EB;
     margin: 10vw -20vw 10vw -20vw;
     padding: 5vw 20vw 5vw 20vw;
+
+
+   
 
   mask: 
     linear-gradient(0,#0000 60px,#000 0) 0 30px,
@@ -309,7 +311,7 @@ footer img {
 
     img {
        
-        width: 50vw;
+        width: 40vw;
         height: auto; 
     }
 
@@ -329,25 +331,23 @@ footer img {
 }
 
 .basmain {
-  display:grid;
-    grid-template-columns: 3 fr 2 fr;
-    gap:30px;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-
+    justify-content: space-around;
+    gap: 5rem; 
 
 }
-
-.basmain img {
-    grid-column: 2 / 3;
-    width: 100%;
-   
+.text {
+    flex: 1; 
 }
 
-.basmain h2, .basmain p, .basmain ol {
-    grid-column: 1 / 2;
-    padding: 0;
+.img {
+ width: 30%; 
+ max-width: 400px;
+ vertical-align: middle; 
 }
-
 
 
 }
