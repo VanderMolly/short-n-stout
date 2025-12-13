@@ -66,13 +66,6 @@ p {
     padding: 1vw;
 }
 
-/*if you wanted the border on main content
-main{
-    border-radius: 20px;
-    background: var(--light-pink);
-    padding: 20px;
-}
-    */
 
 /* for mobile, media queries for desktop*/
 img{
