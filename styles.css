@@ -87,6 +87,7 @@ p {
     line-height: 22px; /* 150% */ 
     padding-left: 5vw;
     color:#4c082c;
+    margin-bottom: 2vw;
 }
 
 
@@ -389,6 +390,10 @@ footer img {
     width: 90vw;
     transform: rotate(90deg);
     margin-left: -30vw;
+}
+/* Food */
+.recimg {
+    margin-left: -10vw;
 }
 
 }
