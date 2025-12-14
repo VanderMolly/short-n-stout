@@ -139,7 +139,10 @@ h1
     linear-gradient(0,#0000 60px,#000 0) 0 30px,
     radial-gradient(30px,#000 calc(100% - 1px),#0000) 50%/55.5px 60px repeat space
 }
-
+.foodtext {
+    text-align: center;
+    align-items: center;
+}
 .pink h2, h3{
     color:#FFF2EB;
     text-align: center;
@@ -313,7 +316,7 @@ footer {
 }
 
 footer img {
-    width: 20%;
+    width: 150px;
     height: auto;
 }
 /* desktop media query */
@@ -398,9 +401,10 @@ footer img {
     margin-left: -30vw;
 }
 /* Food */
-.recimg {
-    width: 40vw;
-    margin-left: -10vw;
+
+.pink img {
+    margin-left: 27vw;
 }
+
 
 }
