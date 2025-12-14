@@ -346,6 +346,12 @@ footer img {
 /* Home page desktop */
     
 /*Home page*/
+.me {
+  margin-left: -5vw;
+  margin-top: -3vw;
+  margin-bottom: 3vw;
+}
+
 .home-img {
     display: flex;
     flex-wrap: wrap;
