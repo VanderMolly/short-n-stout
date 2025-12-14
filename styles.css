@@ -347,14 +347,6 @@ footer img {
     }
 
 /* Home page desktop */
-    
-/*Home page*/
-.me {
-  margin-left: -5vw;
-  margin-top: -3vw;
-  margin-bottom: 3vw;
-}
-
 .home-img {
     display: flex;
     flex-wrap: wrap;
@@ -366,6 +358,16 @@ footer img {
     height: auto;
     border-radius: 15%; 
 }
+
+    
+/*Home page*/
+.me {
+  margin-left: -5vw;
+  margin-top: -3vw;
+  margin-bottom: 3vw;
+}
+
+
 /*flexbox*/
 
 .wrapper {
@@ -402,7 +404,7 @@ footer img {
 }
 /* Food */
 
-.pink img {
+.recimg {
     margin-left: 27vw;
 }
 
