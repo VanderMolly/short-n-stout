@@ -399,6 +399,7 @@ footer img {
 }
 /* Food */
 .recimg {
+    width: 40vw;
     margin-left: -10vw;
 }
 
