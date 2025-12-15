@@ -20,7 +20,9 @@ margin: 0;
     --Rose-Bud-Pink:#FF89AA;
     --Dark-Rose: #AD0C70;
 }
-
+header li {
+    margin-left: -5vw;
+}
 body {
     background-color: #FFBACE;
     font-family: 'Zen Kaku Gothic New', sans-serif;
