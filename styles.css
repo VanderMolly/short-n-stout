@@ -20,9 +20,7 @@ margin: 0;
     --Rose-Bud-Pink:#FF89AA;
     --Dark-Rose: #AD0C70;
 }
-header li {
-    margin-left: -5vw;
-}
+
 body {
     background-color: #FFBACE;
     font-family: 'Zen Kaku Gothic New', sans-serif;
@@ -64,13 +62,21 @@ main {
      margin: 4vw;
 }
 
-main ol, ul, li {
+main ol, ul,  {
     font-size: 16px;
     font-style: normal;
     line-height: 22px; /* 150% */ 
     padding-left: 5vw;
     color:#4c082c;
    
+}
+
+.regli {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 22px; /* 150% */ 
+    padding-left: 5vw;
+    color:#4c082c;
 }
 
 
