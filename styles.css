@@ -66,18 +66,11 @@ main ol, ul  {
     font-size: 16px;
     font-style: normal;
     line-height: 22px; /* 150% */ 
-    padding-left: 5vw;
+    margin-left: 7vw;
     color:#4c082c;
    
 }
 
-.regli {
-    font-size: 16px;
-    font-style: normal;
-    line-height: 22px; /* 150% */ 
-    padding-left: 5vw;
-    color:#4c082c;
-}
 
 
 /*typography*/
@@ -146,6 +139,17 @@ h1
   mask: 
     linear-gradient(0,#0000 60px,#000 0) 0 30px,
     radial-gradient(30px,#000 calc(100% - 1px),#0000) 50%/55.5px 60px repeat space
+}
+
+.pink ol, ul {
+   
+    font-size: 16px;
+    font-style: normal;
+    line-height: 22px; /* 150% */ 
+    margin-left: 10vw;
+    color:#4c082c;
+   
+
 }
 .foodtext {
     text-align: center;
