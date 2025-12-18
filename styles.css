@@ -56,6 +56,11 @@ body a:hover {
 
 main {
      margin: 4vw;
+
+}
+
+.tophead {
+   padding-top: 5vw;
 }
 
 
@@ -63,9 +68,7 @@ main {
  margin-top: 25vw;
 
 }
-main {
-     margin: 4vw;
-}
+
 
 main ol, ul  {
     font-size: 16px;
@@ -84,8 +87,10 @@ h1, h2, h3 , h6 {
     color: var(--Dark-Rose, #AD0C70); 
     padding-left: 5vw;
     margin-bottom: 2vw;
+
    
 }
+
 
 p {
     max-width: 800px;
@@ -117,8 +122,27 @@ h1
     padding-left: 20vw;
     border-radius: 10vw;
     margin-left: -11vw;
-    margin-top: 6vw;
+    margin-top: 12vw;
     width: 80%;
+}
+
+.scallop {
+    background-color:#FFF2EB;
+    color: #AD0C70;
+    padding: 1vw;
+    padding-left: 20vw;
+    border-radius: 10vw;
+    margin-left: -11vw;
+    margin-top: -12.5vw;
+    width: 200%;
+
+  mask: 
+    linear-gradient(0,#0000 30px,#000 0),
+    radial-gradient(30px,#000 calc(100% - 1px),#0000) bottom/55.5px 60px;
+
+    position: relative;
+    z-index: -1;
+
 }
 
 .banner2
@@ -186,17 +210,22 @@ h1
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: 138px;
-    height: 25vw;
-    width: 100%;
+    top: 140px;
+    height: 35vw;
+    max-height: 400px;
+    width: 130%;
     z-index: -1;
     margin-right: -30vw;
     margin-left: -4vw;
     padding-right: 20vw;
 
-   mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%
+   mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%;
 
+   
 }
+
+
+
 
 .basmain {
  margin-top: 25vw;
@@ -205,19 +234,20 @@ h1
 /*Tea Page Styles*/
 .teahead {
     background-image: url(img-tea/thead.jpeg);
-    background-size: cover;
+   background-size: cover;
     background-position: center;
     position: absolute;
-    top: 138px;
-    height: 25vw;
-    width: 100%;
+    top: 140px;
+    height: 35vw;
+    width: 130%;
     z-index: -1;
     margin-right: -30vw;
     margin-left: -4vw;
     padding-right: 20vw;
 
-  mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%
+   mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%;
 
+   
 }
 
 .teamain {
@@ -338,7 +368,7 @@ footer img {
     height: auto;
 }
 /* desktop media query */
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 700px) {
 
     main {
         align-items: left;
@@ -363,6 +393,9 @@ footer img {
         width: 40vw;
         height: auto; 
     }
+
+
+   
 
 /* Home page desktop */
 .home-img {
