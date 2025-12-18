@@ -416,9 +416,8 @@ footer img {
 
 /* Tea */
 .teacircle {
-    width: 60vw;
-    transform: rotate(90deg);
-    margin-left: -10vw;
+    width: 40vw;
+    margin-left: -3vw;
    
 
 }
