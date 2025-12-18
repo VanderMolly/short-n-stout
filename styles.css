@@ -153,6 +153,7 @@ h1
     border-radius: 10vw;
     margin-left: -11vw;
     margin-top: -30vw;
+    margin-bottom: 20vw;
     width: 200%;
 
   mask: 
@@ -164,9 +165,7 @@ h1
 
 }
 
-.tea-img {
-    margin-top: 15vw;
-}
+
 
 .banner2
 {
