@@ -22,9 +22,14 @@ margin: 0;
 }
 
 body {
+ 
     background-color: #FFBACE;
     font-family: 'Zen Kaku Gothic New', sans-serif;
+    max-width: 100%; 
+   overflow-x: hidden;
 }
+
+
 
 /*link styling*/
 /*link styling*/ 
@@ -410,9 +415,11 @@ footer img {
 
 /* Tea */
 .teacircle {
-    width: 90vw;
+    width: 60vw;
     transform: rotate(90deg);
-    margin-left: -30vw;
+    margin-left: -10vw;
+   
+
 }
 /* Food */
 
