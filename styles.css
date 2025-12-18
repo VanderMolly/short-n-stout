@@ -127,8 +127,8 @@ h1
 }
 
 .scallop {
-    background-color:#FFF2EB;
-    color: #AD0C70;
+    background-color:   #fff1f1;
+    color: #fff1f1;
     padding: 1vw;
     padding-left: 20vw;
     border-radius: 10vw;
@@ -260,16 +260,18 @@ h1
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: 138px;
-    height: 25vw;
-    width: 100%;
+    top: 140px;
+    height: 35vw;
+    max-height: 400px;
+    width: 130%;
     z-index: -1;
     margin-right: -30vw;
     margin-left: -4vw;
     padding-right: 20vw;
 
-  mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%
+   mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%;
 
+   
 }
 
 .foodmain {
@@ -292,16 +294,18 @@ h1
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: 138px;
-    height: 25vw;
-    width: 100%;
+    top: 140px;
+    height: 35vw;
+    max-height: 400px;
+    width: 130%;
     z-index: -1;
     margin-right: -30vw;
     margin-left: -4vw;
     padding-right: 20vw;
 
-  mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%
+   mask: radial-gradient(30px at bottom,#0000 calc(100% - 1px),#000) 50%/55.5px 100%;
 
+   
 }
 
 .decormain {
